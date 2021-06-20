@@ -1,0 +1,64 @@
+.menu-list {
+  // @include font($fs: 12px, $fw: 700, $lh: 1.2);
+  display: none;
+  padding: 0;
+  letter-spacing: 0.04em;
+
+  @media (min-width: 1280px) {
+    display: flex;
+    text-transform: uppercase;
+    margin-right: 24px;
+    margin-left: auto;
+  }
+
+  @media (min-width: 1680px) {
+    font-size: 14px;
+    margin-right: 54px;
+  }
+
+  &__item:not(:last-child) {
+    @media (min-width: 1280px) {
+      margin-right: 40px;
+    }
+
+    @media (min-width: 1680px) {
+      margin-right: 54px;
+    }
+  }
+
+  &__item-link {
+    // @include transition;
+
+    @media (min-width: 1280px) {
+      // color: $light-gray-color;
+    }
+
+    &:hover,
+    &:focus {
+      // color: $primary-color;
+    }
+  }
+}
+
+// Пример
+
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eef5f6;
+
+  @media (min-width: 1140px) {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+  }
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-background {
+  background-color: #eef5f6;
+}
