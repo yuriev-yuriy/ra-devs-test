@@ -1,2 +1,10 @@
 import './styles.css';
 import './sass/main.scss';
+import './js/icons';
+import $ from 'jquery';
+global.jQuery = $;
+global.$ = $;
+import './slick/slick.min';
+import './js/slider';
+import './slick/slick.scss';
+import './slick/slick-theme.scss';

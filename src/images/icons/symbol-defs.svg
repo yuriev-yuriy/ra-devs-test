@@ -1,7 +1,7 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
 <symbol id="icon-Heart" viewBox="0 0 32 32">
-<path fill="none" stroke="#cddde2" style="stroke: var(--color1, #cddde2)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9971" d="M27.678 6.273c-0.673-0.674-1.473-1.208-2.352-1.572s-1.823-0.552-2.775-0.552-1.895 0.188-2.775 0.552c-0.88 0.365-1.679 0.899-2.352 1.572l-1.397 1.397-1.397-1.397c-1.36-1.36-3.204-2.124-5.128-2.124s-3.768 0.764-5.128 2.124c-1.36 1.36-2.124 3.204-2.124 5.128s0.764 3.768 2.124 5.128l11.652 11.652 11.653-11.652c0.674-0.673 1.208-1.473 1.572-2.352s0.552-1.823 0.552-2.775-0.188-1.895-0.552-2.775c-0.364-0.88-0.899-1.679-1.572-2.352z"></path>
+<path  stroke="#cddde2" style="stroke: var(--color1, #cddde2)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9971" d="M27.678 6.273c-0.673-0.674-1.473-1.208-2.352-1.572s-1.823-0.552-2.775-0.552-1.895 0.188-2.775 0.552c-0.88 0.365-1.679 0.899-2.352 1.572l-1.397 1.397-1.397-1.397c-1.36-1.36-3.204-2.124-5.128-2.124s-3.768 0.764-5.128 2.124c-1.36 1.36-2.124 3.204-2.124 5.128s0.764 3.768 2.124 5.128l11.652 11.652 11.653-11.652c0.674-0.673 1.208-1.473 1.572-2.352s0.552-1.823 0.552-2.775-0.188-1.895-0.552-2.775c-0.364-0.88-0.899-1.679-1.572-2.352z"></path>
 </symbol>
 <symbol id="icon-Login" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3091" d="M23.273 23.273v-1.455c0-0.772-0.351-1.512-0.976-2.057s-1.473-0.852-2.357-0.852h-7.88c-0.884 0-1.732 0.306-2.357 0.852s-0.976 1.285-0.976 2.057v1.455"></path>
