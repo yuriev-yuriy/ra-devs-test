@@ -9,34 +9,39 @@
   </head>
 
   <body>
-    <header >
+    <header class="header">
       <div class="header-wrapper">
-        <div>
-          <a href="tel:+1234567890">+123 456 78 90</a>
-          <input type="text">
+        <div class="header-wrapper__container">
+          <a class="header-wrapper__link" href="tel:+1234567890">+123 456 78 90</a>
+          <input class="header-wrapper__input" type="text" placeholder="Search">
         </div>
-    <a href=""><img src="./images/RaDevs.png" alt="logo ra devs"></a>
-  <div>
-    <button>
-      <p>3 items</p>
-      <svg class="contact-tel--svg">
+    <a href="#"><img src="./images/RaDevs.png" alt="logo ra devs"></a>
+  <div class="header-button__wrapper">
+    <button class="header-button header-button__cart">
+      <div class="header-button__cart-sign">.</div>
+      <div class="header-button__innerWrap">
+        <p class="header-button__text">3 items</p>
+      <svg class="header-svg header-svg__cart">
           <use href="./images/icons/symbol-defs.svg#icon-shopping-cart"></use>
         </svg>
+      </div>
     </button>
-    <button>
-      <p>log in</p>
-      <svg class="contact-tel--svg">
+    <button class="header-button header-button__log">
+      <div class="header-button__innerWrap header-button__innerWrap-log">
+        <p class="header-button__text">log in</p>
+      <svg class="header-svg header-svg__log">
           <use href="./images/icons/symbol-defs.svg#icon-Login"></use>
         </svg>
+      </div>
     </button>
   </div>
       </div>
       <ul class="header-list">
-        <li>banner printing</li>
-        <li>sign printing</li>
-        <li>stands and displays</li>
-        <li>stickers</li>
-        <li>window graphics</li>
+        <li class="header-list__item">banner printing</li>
+        <li class="header-list__item">sign printing</li>
+        <li class="header-list__item">stands and displays</li>
+        <li class="header-list__item">stickers</li>
+        <li class="header-list__item">window graphics</li>
       </ul>
 </header>
 <main>

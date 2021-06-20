@@ -17,16 +17,21 @@ body {
   background-color: #fff;
 }
 
-.list {
+ul {
   list-style: none;
 }
 
-.img {
+img {
   display: block;
   max-width: 100%;
   height: auto;
 }
 
-.link {
+a {
   text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
