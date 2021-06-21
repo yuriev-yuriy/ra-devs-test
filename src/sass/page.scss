@@ -19,6 +19,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: #eef5f6;
+    width: 100%;
 
     @media (min-width: 1140px) {
       height: 120px;
@@ -26,12 +27,23 @@
     }
 
     &__container {
-      width: 350px;
+      width: 320px;
       display: flex;
       flex-wrap: wrap;
-      justify-content: flex-end;
+
+      @media (max-width: 1139px) {
+        justify-content: center;
+        margin-bottom: 16px;
+      }
+      @media (min-width: 1140px) {
+        justify-content: flex-end;
+        width: 350px;
+      }
     }
 
+    &__logo {
+      margin: 0 auto;
+    }
     &__link {
       font-size: 12px;
       font-style: normal;
@@ -44,7 +56,7 @@
     }
 
     &__input {
-      width: 309px;
+      width: 260px;
       border-radius: 6px;
       height: 36px;
       margin-right: 2px;
@@ -57,6 +69,10 @@
       letter-spacing: 0em;
       padding-left: 8px;
       box-shadow: 0px 4px 4px 0px #00000040;
+
+      @media (min-width: 1140px) {
+        width: 309px;
+      }
     }
   }
 
@@ -72,10 +88,10 @@
     }
 
     &__innerWrap {
+      margin-top: 7px;
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      // position: relative;
 
       &-log {
         margin-top: -2px;
@@ -145,6 +161,11 @@
       display: flex;
       align-items: center;
     }
+    @media (max-width: 1139px) {
+      &__item:nth-child(2n) {
+        display: none;
+      }
+    }
   }
 }
 
@@ -192,13 +213,13 @@
       display: flex;
       flex-direction: column;
       background: #fff;
+      box-shadow: 0px 4px 4px 0px #00000040;
+      margin: 2px;
 
       &-wrapper {
         margin: 0 auto;
         width: 172px;
         align-self: center;
-        // display: flex;
-        // justify-content: center;
         padding-bottom: 10px;
         border-bottom: 1px solid #cddde2;
       }
@@ -216,6 +237,11 @@
         height: 18px;
         width: 18px;
         border-radius: 0.5px;
+        fill: rgb(160, 155, 155);
+
+        &-active {
+          fill: #ffd78a;
+        }
       }
 
       &-svgStar:first-child {

@@ -1,7 +1,7 @@
 /* Slider */
 
 .slick-slider {
-  max-width: 898px;
+  max-width: 100%;
   margin: 0 auto;
   position: relative;
   display: block;
@@ -15,6 +15,10 @@
   -ms-touch-action: pan-y;
   touch-action: pan-y;
   -webkit-tap-highlight-color: transparent;
+
+  @media (min-width: 1139px) {
+    max-width: 898px;
+  }
 }
 .slick-list {
   position: relative;
@@ -64,9 +68,14 @@
   }
 }
 .slick-slide {
+  padding-left: 60px;
   float: left;
   height: 100%;
   min-height: 1px;
+
+  @media (min-width: 1140px) {
+    padding-left: 0;
+  }
   [dir='rtl'] & {
     float: right;
   }
